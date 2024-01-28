@@ -14,6 +14,10 @@ const BlogAdmin = () => {
     }).then(() => history('/admin'));
   };
 
+  const goToAdmin = () => {
+    history('/admin');
+  }
+
   return (
     <div className='blog-details'>
       {loading && <div>Loading...</div>}
@@ -22,9 +26,14 @@ const BlogAdmin = () => {
         <article>
           <h2>{blog.title}</h2>
           {blog.author && <p>Written by: {blog.author}</p>}
-          <div>{blog.body}</div>
-          {!loading && !allowedAuthors.includes(blog.author) && (
-          <button onClick={handleClick}>Delete</button>
+          <div>{blog.body}</div>{!loading && !allowedAuthors.includes(blog.author) && (
+            <>
+              <button onClick={goToAdmin}>Go Back</button>
+              <button onClick={handleClick}>Delete</button>
+            </>
+          )}
+          {allowedAuthors.includes(blog.author) && (
+            <button onClick={goToAdmin}> Go Back </button>
           )}
         </article>
       )}

@@ -4,7 +4,12 @@ import useFetch from './useFetch';
 
 const BlogDetails = () => {
   const { id } = useParams();
+  const history = useNavigate();
   const { data: blog, error, loading } = useFetch(`http://localhost:8000/blogs/${id}`);
+
+  const goBack = () => {
+    history('/');
+  }
 
   return (
     <div className='blog-details'>
@@ -15,6 +20,7 @@ const BlogDetails = () => {
           <h2>{blog.title}</h2>
           {blog.author && <p>Written by: {blog.author}</p>}
           <div>{blog.body}</div>
+          <button onClick={goBack}> Go Back </button>
         </article>
       )}
     </div>
