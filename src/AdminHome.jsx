@@ -1,6 +1,6 @@
 import React from 'react';
 import BlogListAdmin from './AdminBlogList';
-import useFetch from './usefetch';
+import useFetch from './useFetch';
 
 const AdminHome = () => {
   const { data: blogs, loading, error } = useFetch('http://localhost:8000/blogs');

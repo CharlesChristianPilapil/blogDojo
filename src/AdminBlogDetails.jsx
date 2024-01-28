@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import useFetch from './usefetch';
+import useFetch from './useFetch';
 
 const BlogAdmin = () => {
   const { id } = useParams();
