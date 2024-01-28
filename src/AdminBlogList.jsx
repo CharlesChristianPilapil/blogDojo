@@ -8,7 +8,7 @@ const BlogListAdmin = ({ blogs }) => {
         <p></p>
       ) : (
         <>
-          <h2>All Blogs Admin</h2>
+          <h2>Blogs Admin</h2>
           {blogs.map((blog) => (
             <div className="blog-preview" key={blog.id}>
               <NavLink to={`/blogs/${blog.id}/admin`}>
