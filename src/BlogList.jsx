@@ -14,7 +14,7 @@ const BlogList = ({ blogs }) => {
           {blogs.map((blog) => (
             <div className="blog-preview" key={blog.id}>
               <NavLink
-                to={blog.author === 'admin' ? '/admin' : `/blogs/${blog.id}`}
+                to={`/blogs/${blog.id}`}
                 onClick={() => {
                   // Additional logic if needed before navigation
                   // For example, tracking analytics, sending events, etc.
