@@ -7,7 +7,7 @@ const BlogList = ({ blogs }) => {
   return (
     <div className='blog-list'>
       {!blogs.length ? (
-        <p>No blogs available.</p>
+        <p></p>
       ) : (
         <>
           <h2>All Blogs</h2>
