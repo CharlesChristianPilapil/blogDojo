@@ -3,7 +3,7 @@ import BlogListAdmin from './AdminBlogList';
 import useFetch from './useFetch';
 
 const AdminHome = () => {
-  const { data: blogs, loading, error } = useFetch('https://blog-data-1kr8.onrender.com/blogs');
+  const { data: blogs, loading, error } = useFetch('https://blog-data-ucmb.onrender.com/blogs');
 
   return (
     <div className="home">
