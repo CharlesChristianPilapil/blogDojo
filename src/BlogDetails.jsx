@@ -20,7 +20,7 @@ const BlogDetails = () => {
           <h2>{blog.title}</h2>
           {blog.author && <p>Written by: {blog.author}</p>}
           <div>{blog.body}</div>
-          <button onClick={goBack}> Go Back </button>
+          {blog.author && <button onClick={goBack}> Go Back </button>}
         </article>
       )}
     </div>
