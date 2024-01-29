@@ -10,31 +10,27 @@ const useFetch = (url) => {
 
         const abortCont = new AbortController();
 
-        setTimeout(() => {
-          fetch(url, {signal: abortCont.signal })
-          .then(response => {
-            if(!response.ok) {
-              throw Error('Could not fetch data for that resource...');
-            }
-    
-            return response.json();
-          })
-          .then(data => {
-            setData(data);
+        fetch(url, { signal: abortCont.signal })
+        .then(response => {
+          if (!response.ok) {
+            throw Error('Could not fetch data for that resource...');
+          }
+      
+          return response.json();
+        })
+        .then(data => {
+          setData(data);
+          isLoading(false);
+          setError(null);
+        })
+        .catch(err => {
+          if (err.name === 'AbortError') {
+            console.log('Fetch aborted');
+          } else {
             isLoading(false);
-            setError(null);
-          })
-          .catch(err => {
-            if(err.name === 'AbortError') {
-                console.log('fetch aborted');
-            }
-
-            else {
-                isLoading(false);
-                setError(err.message);
-            }
-          })
-        }, 0);
+            setError(err.message);
+          }
+        });
 
         return () => abortCont.abort();
     }, [url]);
