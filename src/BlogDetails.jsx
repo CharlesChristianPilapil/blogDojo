@@ -5,7 +5,7 @@ import useFetch from './useFetch';
 const BlogDetails = () => {
   const { id } = useParams();
   const history = useNavigate();
-  const { data: blog, error, loading } = useFetch(`http://localhost:8000/blogs/${id}`);
+  const { data: blog, error, loading } = useFetch(`https://blog-data-1kr8.onrender.com/blogs/${id}`);
 
   const goBack = () => {
     history('/');

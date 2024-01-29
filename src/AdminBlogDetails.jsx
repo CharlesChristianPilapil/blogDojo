@@ -4,12 +4,12 @@ import useFetch from './useFetch';
 
 const BlogAdmin = () => {
   const { id } = useParams();
-  const { data: blog, error, loading } = useFetch(`http://localhost:8000/blogs/${id}`);
+  const { data: blog, error, loading } = useFetch(`https://blog-data-1kr8.onrender.com/blogs/${id}`);
   const history = useNavigate();
   const allowedAuthors = ['yoshi', 'mario', 'Not Showmaker', 'admin'];
 
   const handleClick = () => {
-    fetch(`http://localhost:8000/blogs/${blog.id}`, {
+    fetch(`https://blog-data-1kr8.onrender.com/blogs/${blog.id}`, {
       method: 'DELETE'
     }).then(() => history('/admin'));
   };

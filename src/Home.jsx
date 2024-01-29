@@ -4,7 +4,7 @@ import useFetch from './useFetch';
 
 const Home = () => {
 
-  const { data: blogs, loading, error } = useFetch('http://localhost:8000/blogs');
+  const { data: blogs, loading, error } = useFetch('https://blog-data-1kr8.onrender.com/blogs');
 
   return (
     <div className="home">
