@@ -1,6 +1,12 @@
 {
   "blogs": [
     {
+      "title": "Admin Note",
+      "body": "Use this URL to access admin control<br>https://ccp-blogdojo-project.netlify.app/admin",
+      "author": "admin",
+      "id": "3"
+    },
+    {
       "title": "My First Blog",
       "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
       "author": "mario",
@@ -17,6 +23,36 @@
       "title": "Hating K'sante isn't racist",
       "body": "A champion 👤 with 4700 HP 💪 329 Armor 🤷‍♂  and 201 MR 💦 has Unstoppable🚫, a Shield🛡, and goes over walls 🧱, has Airborne 🌪, and cooldown is only 1 second too🕐 It costs 15 Mana🧙‍ The W CD is even refreshed when he transforms 💫 He has true damage 🗡 on his Passive. Then, when he stacks 📈 Armor and MR 🥋 he gets Ability Haste too ⏰ Ability Haste to his Q ⏰ and his spell casting speeds up 🚀\nThen, he has an AD ratio 🗡 so he has W... W is like eee 😡 aaaaaaaaaaaa 😱😱",
       "author": "Not Showmaker"
+    },
+    {
+      "id": "a1s2",
+      "title": "The Magical Castle",
+      "body": "Once upon a time, in a magical land, there was a castle where all the toys came to life. The teddy bears danced, the dolls sang, and the toy soldiers stood guard. Every night, the toys would have a grand party until the break of dawn. The magical castle was a place of joy and laughter for all the toys in the kingdom.",
+      "author": "Little Dreamer"
+    },
+    {
+      "id": "b3k8",
+      "title": "Adventure in Candyland",
+      "body": "In a land made of candy and sweets, a group of friends embarked on a delicious adventure. They journeyed through the Chocolate Mountains, crossed the Gummy Bear River, and climbed the Licorice Trees. Along the way, they met talking lollipops and friendly marshmallow creatures. The friends discovered that in Candyland, every treat had a story to tell.",
+      "author": "Sweet Explorer"
+    },
+    {
+      "id": "z9h1",
+      "title": "The Brave Little Star",
+      "body": "Up in the night sky, there was a little star named Sparkle who was afraid to shine. One day, Sparkle overcame fear and decided to shine brightly. To everyone's surprise, Sparkle's light turned into magical colors that painted the sky. The little star became a hero, teaching everyone that even the smallest light can make a big difference.",
+      "author": "Starry Wonder"
+    },
+    {
+      "id": "x2c7",
+      "title": "The Enchanted Forest",
+      "body": "Deep in the heart of the enchanted forest, animals could talk, and trees had magical powers. A curious squirrel named Nutty and a wise old owl named Hootie set out on a quest to discover the secrets of the forest. Along the way, they encountered friendly fairies, mischievous elves, and a mystical unicorn. The enchanted forest held wonders beyond their wildest dreams.",
+      "author": "Forest Explorer"
+    },
+    {
+      "id": "k4j6",
+      "title": "The Rainbow Bridge",
+      "body": "In a world where rainbows were magical bridges to faraway lands, a group of adventurous kittens set out to find the legendary Rainbow Bridge. They leaped from color to color, encountering fluffy clouds and shimmering stars. Finally, they reached the end of the rainbow, where a world of surprises awaited them. The kittens learned that the journey itself was the greatest treasure.",
+      "author": "Rainbow Chasers"
     }
   ]
 }
